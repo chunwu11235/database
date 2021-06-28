@@ -1,5 +1,5 @@
 ### Load database into server
-kubectl exec -i mysql-74d8957988-5zng6 -- mysql -u user -ppassword < mysqlsampledatabase.sql
+kubectl exec -i mysql-74d8957988-5zng6 -- mysql -u root -ppassword < mysqlsampledatabase.sql
 
 ### Run bash terminal inside pod
 kubectl exec -it mysql-74d8957988-fjr5q -- bash
